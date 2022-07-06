@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import './App.css';
 
 import { FaStar } from 'react-icons/fa';
+import Card from './components/Card';
 
 function App() {
   const [season, setSeason] = useState('Summer');
@@ -44,11 +45,7 @@ function App() {
         </section>
         <div className='CardContainer'>
           {animes.map((anime) => (
-            <div className='Card'>
-              <a target={'_blank'} href={anime.url}>
-                {anime.title} <span>{`[${anime.score}]`}</span>
-              </a>
-            </div>
+            <Card details={anime}></Card>
           ))}
         </div>
       </main>
