@@ -7,6 +7,9 @@ const Card = ({ details }) => {
   return (
     <div className='Card'>
       <div className='CardPoster'>
+        <div className='RatingBadge'>
+          <FaStar color='orange' /> <span>{details.score}</span>
+        </div>
         <a href={details.url} target={'_blank'} title={details.title}>
           <img src={details.images.jpg.large_image_url} alt={details.title} />
         </a>
