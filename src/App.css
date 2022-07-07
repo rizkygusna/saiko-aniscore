@@ -7,11 +7,14 @@
   justify-content: center;
 
   margin-inline: auto;
-  outline: solid red;
 }
 
 .App > *{
   text-align: center;
+}
+
+.App h1{
+  text-transform: uppercase;
 }
 
 .App h2{

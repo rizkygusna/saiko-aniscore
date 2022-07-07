@@ -8,12 +8,17 @@ img {
   max-width: 100%;
 }
 
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
 body {
   margin: 0;
   font-family: 'Noto Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 code {

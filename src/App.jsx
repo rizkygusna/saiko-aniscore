@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 import './App.css';
 
-import { FaStar } from 'react-icons/fa';
 import Card from './components/Card';
 
 function App() {
@@ -40,7 +39,7 @@ function App() {
         <p>Find the best rated anime of the season.</p>
       </header>
       <main>
-        <section>
+        <section className='SeasonHeader'>
           <h2>{`${season} Season ${year}`}</h2>
         </section>
         <div className='CardContainer'>
