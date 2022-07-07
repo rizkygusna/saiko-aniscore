@@ -1,3 +1,19 @@
 .Card{
-  width: 300px;
+  width: 250px;
+}
+.CardPoster{
+  max-height: 352px;
+  overflow: hidden;
+}
+
+.CardPoster img{
+  border-radius: 0.5em;
+  object-fit: contain;
+}
+
+.CardDetail h3{
+  margin-block-start: 0.5em;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
